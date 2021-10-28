@@ -38,8 +38,12 @@
       "last 1 safari version"
     ]
   },
+  "lint-staged": {
+    "*.{js,css,json,md,ts,tsx}": "prettier --write"
+  },
   "devDependencies": {
     "husky": "^7.0.4",
-    "pinst": "^2.1.6"
+    "pinst": "^2.1.6",
+    "prettier": "^2.4.1"
   }
 }
